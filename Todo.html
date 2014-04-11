@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .item div {
+            background-color: #EECCC4;
+            border-radius: 5px;
+            text-align: left;
+            padding: 10px;
+            width: 300px;
+            margin: 5px;
+        }
+
+        html {
+            background-color: #C68D71;
+            font-family: Helvetica;
+            color: #5C1F00;
+        }
+
+        input {
+            border-radius: 5px;
+        }
+
+        button {
+            border-radius: 5px;
+        }</style>
+</head>
+<body>
+<h1>To-Do List</h1>
+
+<p id="ToDoList" class="item"></p>
+
+<form>
+    <input type="text" id="entry" maxlength="30">
+    <button class="enter"/>
+    Enter</button>
+    <button class="clear"/>
+    Clear All</button>
+</form>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="TodoJS.js"></script>
+</body>
+</html>
